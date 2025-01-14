@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         pressStart: ['"Press Start 2P"', "serif"],
+        jua: ['"Jua"', "serif"],
       }
     },
   },
