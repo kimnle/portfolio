@@ -12,14 +12,14 @@ const Navbar = () => {
         <nav className="bg-white">
             <div className="container mx-auto px-6 py-4 flex justify-between items-center">
                 {/* Logo */}
-                <a href="/" className="text-2xl text-neutral-800 font-pressStart">
+                <a href="/" className="text-2xl text-stone-800 font-pressStart">
                     Kim Le
                 </a>
 
                 {/* Hamburger icon for mobile */}
                 <button
                     onClick={toggleMenu}
-                    className="block lg:hidden text-neutral-800 focus:outline-none"
+                    className="block lg:hidden text-yellow-950 focus:outline-none"
                 >
                     <IoIosMenu className="w-8 h-8" />
                 </button>
@@ -33,7 +33,7 @@ const Navbar = () => {
                     <li>
                         <a
                             href="#about"
-                            className="text-left text-neutral-600 hover:text-yellow-500 font-medium block"
+                            className="text-left text-yellow-950 hover:text-yellow-500 block"
                         >
                             About
                         </a>
@@ -41,7 +41,7 @@ const Navbar = () => {
                     <li>
                         <a
                             href="#projects"
-                            className="text-left text-neutral-600 hover:text-yellow-500 font-medium block"
+                            className="text-left text-yellow-950 hover:text-yellow-500 block"
                         >
                             Projects
                         </a>
