@@ -18,19 +18,19 @@ const HomeSection = () => {
                 </div>
 
                 {/* Right images */}
-                <div className="relative flex items-center justify-center">
+                <div className="relative flex items-center justify-center w-[300px] md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px]">
                     {/* Background image */}
                     <img
                         src={homeBg}
                         alt="Home background"
-                        className="absolute inset-0 rounded-full w-80 h-80 md:w-96 md:h-96 z-0"
+                        className="absolute inset-0 w-full h-72 md:h-96 lg:h-full object-cover z-0"
                     />
 
                     {/* Foreground image */}
                     <img
                         src={kimMemoji}
                         alt="Kim Memoji"
-                        className="relative rounded-lg z-10 w-64 h-64 md:w-80 md:h-80"
+                        className="relative rounded-lg z-10 w-3/4 h-3/4 md:bottom-12"
                     />
                 </div>
             </div>
