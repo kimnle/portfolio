@@ -6,7 +6,7 @@ const HomeSection = () => {
     return (
         <section className="bg-stone-50 min-h-screen flex items-center">
             <div className="container mx-auto px-6 md:px-12 flex flex-col-reverse md:flex-row items-center justify-evenly">
-                {/* Left content */}
+                {/* Content */}
                 <div className="max-w-lg z-10">
                     <h1 className="text-4xl font-bold text-stone-800 mb-4 leading-tight font-jua">
                         Hello, world! I'm{""}
@@ -17,7 +17,7 @@ const HomeSection = () => {
                     </p>
                 </div>
 
-                {/* Right images */}
+                {/* Images */}
                 <div className="relative flex items-center justify-center w-[300px] md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px]">
                     {/* Background image */}
                     <img
