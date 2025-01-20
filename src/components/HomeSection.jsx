@@ -8,7 +8,7 @@ const HomeSection = () => {
             <div className="container mx-auto px-6 md:px-12 flex flex-col-reverse md:flex-row items-center justify-evenly">
                 {/* Content */}
                 <div className="max-w-lg z-10">
-                    <h1 className="text-4xl font-bold text-stone-800 mb-4 leading-tight font-jua">
+                    <h1 className="text-5xl font-bold text-stone-800 mb-4 leading-tight font-jua">
                         Hello, world! I'm{""}
                         <span className="block">Kim Le,</span>
                     </h1>
