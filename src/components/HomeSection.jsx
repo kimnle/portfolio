@@ -23,7 +23,7 @@ const HomeSection = () => {
                     <img
                         src={homeBg}
                         alt="Home background"
-                        className="absolute inset-0 w-full h-72 md:h-96 lg:h-full object-cover z-0"
+                        className="absolute inset-0 w-full h-72 md:h-5/6 lg:h-full object-cover z-0"
                     />
 
                     {/* Foreground image */}
