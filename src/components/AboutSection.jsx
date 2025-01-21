@@ -22,12 +22,12 @@ const AboutSection = () => {
 
                         <Button
                             text="Resume"
-                            href="../assets/kim-resume.pdf"
+                            href="src/assets/kim-resume.pdf"
                             size="md"
                         />
                     </div>
 
-                    {/* Experience and education */}
+                    {/* Experience, skills, and education */}
                     <div className="flex-1">
                         {/* Experience */}
                         <div className="mb-8">
@@ -51,6 +51,14 @@ const AboutSection = () => {
                                         March 2021 - January 2023
                                     </span>
                                 </li>
+                            </ul>
+                        </div>
+
+                        {/* Skills */}
+                        <div className="mb-8">
+                            <h3 className="text-2xl font-semibold mb-4 font-jua text-stone-800">Skills</h3>
+                            <ul className="space-y-4">
+                                
                             </ul>
                         </div>
 
