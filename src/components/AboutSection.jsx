@@ -57,8 +57,18 @@ const AboutSection = () => {
                         {/* Skills */}
                         <div className="mb-8">
                             <h3 className="text-2xl font-semibold mb-4 font-jua text-stone-800">Skills</h3>
-                            <ul className="space-y-4">
-                                
+                            <ul className="grid grid-cols-2 gap-y-4 lg:grid-cols-3 xl:grid-cols-4">
+                                <li>Git</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Python</li>
+                                <li>SQL</li>
+                                <li>Flask</li>
+                                <li>JavaScript</li>
+                                <li>Node.js</li>
+                                <li>React</li>
+                                <li>Express.js</li>
+                                <li>MongoDB</li>
                             </ul>
                         </div>
 
