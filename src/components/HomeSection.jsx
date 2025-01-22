@@ -30,7 +30,7 @@ const HomeSection = () => {
                     <img
                         src={kimMemoji}
                         alt="Kim Memoji"
-                        className="relative rounded-lg z-10 w-3/4 h-3/4 md:bottom-12"
+                        className="relative rounded-lg z-10 w-3/4 h-3/4 md:bottom-20 lg:bottom-12"
                     />
                 </div>
             </div>
