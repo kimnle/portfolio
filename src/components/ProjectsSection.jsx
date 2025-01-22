@@ -44,10 +44,12 @@ const ProjectsSection = () => {
                     {projects.map((project) => (
                         <div
                             key={project.id}
-                            className="flex flex-col md:flex-row items-center bg-white shadow-lg rounded-lg overflow-hidden"
+                            className={`flex flex-col md:flex-row ${
+                                project.id % 2 === 1 ? "md:flex-row-reverse" : ""
+                                } items-stretch bg-white shadow-lg rounded-lg overflow-hidden`}
                         >
                             {/* Project image */}
-                            <div className="w-full md:w-1/2">
+                            <div className="w-full md:w-1/2 h-auto">
                                 <img
                                     src={project.image}
                                     alt={project.name}
@@ -57,11 +59,11 @@ const ProjectsSection = () => {
 
                             {/* Project content */}
                             <div className="w-full md:w-1/2 p-6">
-                                <h3 className="text-xl font-semibold mb-4 font-jua text-stone-800">{project.name}</h3>
-                                <p className="text-yellow-950 mb-6">{project.description}</p>
+                                <h3 className="text-2xl font-semibold mb-4 font-jua text-stone-800">{project.name}</h3>
+                                <p className="text-yellow-950 mb-6 text-justify">{project.description}</p>
                                 <Button
                                     text="View Project"
-                                    href=""
+                                    onClick={() => window.open(project.link)}
                                     size="md"
                                 />
                             </div>
