@@ -12,7 +12,7 @@ const Navbar = () => {
         <nav className="bg-white">
             <div className="container mx-auto px-6 py-4 flex justify-between items-center">
                 {/* Logo */}
-                <a href="/" className="text-2xl text-stone-800 font-pressStart">
+                <a href="/" className="text-2xl text-stone-800 font-pressStart hover:text-yellow-500">
                     Kim Le
                 </a>
 
