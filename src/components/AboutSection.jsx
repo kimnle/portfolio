@@ -5,7 +5,7 @@ const AboutSection = () => {
     return (
         <section className="pb-16 bg-neutral-50 text-yellow-950" id="about">
             <div className="container mx-auto px-6 lg:px-20">
-                <h2 className="text-4xl font-bold mb-8 text-center font-jua text-stone-800">About Me</h2>
+                <h2 className="text-4xl font-bold mb-8 text-center font-jua text-stone-800 bg-yellow-200 mx-14 md:mx-64 lg:mx-[315px] xl:mx-[440px]">About Me</h2>
 
                 <div className="flex flex-col md:flex-row items-center gap-12 md:items-start">
                     {/* About text */}
