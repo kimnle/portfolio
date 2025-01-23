@@ -10,7 +10,7 @@ const HomeSection = () => {
                 <div className="max-w-lg z-10">
                     <h1 className="text-5xl font-bold text-stone-800 mb-4 leading-tight font-jua">
                         Hello, world! I'm{""}
-                        <span className="block">Kim Le,</span>
+                        <span className="block bg-yellow-200 mx-14 lg:mx-20">Kim Le,</span>
                     </h1>
                     <p className="text-yellow-950 text-lg mb-6">
                         a junior full-stack web developer.
